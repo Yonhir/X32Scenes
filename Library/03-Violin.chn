@@ -1,0 +1,31 @@
+#2.7# 3 "Violin" 0 %0011111100111100 1                                                                                         
+/config "VIOLIN" 39 YEi
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 158
+/gate ON GATE -76.0 60.0 1  502  983 0
+/gate/filter OFF 3.0 990.9
+/dyn ON COMP PEAK LOG -10.5 3.0 1 0.00 18 10.0  151 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 PEQ 295.8 +3.25 2.0
+/eq/2 PEQ 496.6 +0.00 2.0
+/eq/3 PEQ 2k79 +1.50 2.0
+/eq/4 PEQ 6k62 +2.25 2.0
+/mix OFF -76.9 ON +0 OFF   -oo
+/mix/01 ON -50.0 +0 EQ->
+/mix/02 ON   -oo
+/mix/03 ON   -oo +100 EQ->
+/mix/04 ON -24.5
+/mix/05 ON  -8.3 +100 EQ->
+/mix/06 ON  -8.8
+/mix/07 ON   0.0 +100 EQ->
+/mix/08 ON   -oo
+/mix/09 ON   -oo -2 POST
+/mix/10 ON   -oo
+/mix/11 ON   -oo +100 PRE
+/mix/12 OFF   -oo
+/mix/13 OFF   -oo +100 POST
+/mix/14 OFF   -oo
+/mix/15 OFF   -oo +100 POST
+/mix/16 ON   -oo
+/headamp/013 +43.5 OFF

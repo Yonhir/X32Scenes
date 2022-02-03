@@ -1,0 +1,31 @@
+#2.7# 7 "Enzo" 0 %0011111100111100 1                                                                                           
+/config "Enzo" 43 CYi
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 117
+/gate ON EXP4 -51.5 12.0 1 44.7  198 0
+/gate/filter OFF 3.0 990.9
+/dyn ON COMP RMS LOG -24.5 4.0 3 1.50 12 0.89  89 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 306.2 -4.00 2.0
+/eq/2 PEQ 447.7 -4.50 3.1
+/eq/3 PEQ 1k97 +0.00 2.0
+/eq/4 VEQ 5k20 -5.00 2.0
+/mix OFF  -7.2 ON +0 OFF -81.0
+/mix/01 ON  -8.0 +0 EQ->
+/mix/02 OFF   -oo
+/mix/03 OFF   -oo +0 EQ->
+/mix/04 ON -15.0
+/mix/05 ON  -2.3 +0 EQ->
+/mix/06 ON  -1.3
+/mix/07 ON -16.0 +0 EQ->
+/mix/08 ON  -1.8
+/mix/09 ON   -oo +0 POST
+/mix/10 ON   -oo
+/mix/11 ON   -oo +0 PRE
+/mix/12 ON   -oo
+/mix/13 ON -18.5 +100 POST
+/mix/14 OFF   -oo
+/mix/15 OFF   -oo +0 POST
+/mix/16 ON   -oo
+/headamp/008 +27.5 OFF

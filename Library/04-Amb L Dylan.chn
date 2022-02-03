@@ -1,0 +1,31 @@
+#2.7# 4 "Amb L Dylan" 0 %0011111100110101 1                                                                                    
+/config "AmbL" 48 WHi
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24 124
+/gate OFF GATE -54.0 60.0 1  502  983 0
+/gate/filter OFF 3.0 990.9
+/dyn ON COMP PEAK LOG -22.5 2.0 2 0.50 100 1.00  68 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 LShv 306.2 -6.00 1.0
+/eq/2 PEQ 496.6 +0.00 2.0
+/eq/3 PEQ 1k97 +0.00 2.0
+/eq/4 HShv 10k02 +0.00 2.0
+/mix OFF   -oo OFF -100 OFF   -oo
+/mix/01 OFF   -oo -100 PRE
+/mix/02 ON   -oo
+/mix/03 ON   -oo -100 PRE
+/mix/04 ON -15.0
+/mix/05 ON -20.0 -100 PRE
+/mix/06 ON -25.0
+/mix/07 ON -20.0 -100 PRE
+/mix/08 ON   -oo
+/mix/09 ON   -oo -100 PRE
+/mix/10 ON   -oo
+/mix/11 ON   -oo -100 PRE
+/mix/12 ON -17.5
+/mix/13 ON   -oo -100 POST
+/mix/14 ON   -oo
+/mix/15 ON   -oo -100 POST
+/mix/16 ON   -oo
+/headamp/026 +39.0 ON
