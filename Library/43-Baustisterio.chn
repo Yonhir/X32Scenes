@@ -1,0 +1,31 @@
+#2.7# 43 "Baustisterio" 0 %0011111100111100 1                                                                                  
+/config "Baustisterio" 51 CY
+/delay OFF   0.3
+/preamp +0.0 OFF ON 24  98
+/gate ON EXP4 -47.0 10.0 5 25.1  385 0
+/gate/filter OFF 3.0 990.9
+/dyn ON COMP PEAK LOG -36.5 4.0 3 0.50 0 7.10  132 POST 0 100 OFF
+/dyn/filter OFF 3.0 990.9
+/eq ON
+/eq/1 VEQ 143.2 -6.50 2.4
+/eq/2 VEQ 417.9 -7.00 4.3
+/eq/3 PEQ 248.9 -7.00 5.8
+/eq/4 PEQ 726.2 -7.00 5.3
+/mix OFF   -oo ON +0 OFF   -oo
+/mix/01 OFF   -oo +0 EQ->
+/mix/02 ON   -oo
+/mix/03 OFF   -oo +0 EQ->
+/mix/04 ON   -oo
+/mix/05 ON   -oo +0 EQ->
+/mix/06 ON   -oo
+/mix/07 ON   -oo +0 EQ->
+/mix/08 ON   -oo
+/mix/09 ON   -oo +0 POST
+/mix/10 ON   -oo
+/mix/11 ON   -oo +0 PRE
+/mix/12 ON   -oo
+/mix/13 OFF   -oo +0 POST
+/mix/14 OFF -84.0
+/mix/15 OFF   -oo +0 POST
+/mix/16 ON -55.0
+/headamp/013 +30.0 OFF
